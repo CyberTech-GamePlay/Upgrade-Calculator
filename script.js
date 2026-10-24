@@ -16,7 +16,7 @@ const monitors = [
   'Nvision 27" 144Hz (Black)',
   'Nvision 27" 144Hz (White)',
   'Viewpoint 27" 120Hz (Black)',
-  'Nvision 27" 144Hz (White)',
+  'Viewpoint 27" 120Hz (White)',
   'Nvision 27" 240Hz (Black)',
   'Nvision 27" 180Hz (White)',
   'Nvision 32" 180Hz (Black)'
