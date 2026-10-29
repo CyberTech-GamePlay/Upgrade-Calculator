@@ -3,8 +3,8 @@
  * Row Level Security. Never put a Supabase secret/service_role key here.
  */
 window.CBD_SUPABASE_CONFIG = {
-  url: "https://YOUR_PROJECT_REF.supabase.co",
-  publishableKey: "sb_publishable_YOUR_PUBLISHABLE_KEY"
+  url: "https://vbzjilngzgkdtlensewj.supabase.co",
+  publishableKey: "sb_publishable_-bLwpPusb3yx_JzaJLxTAQ_1YuAm4nY"
 };
 
 /* Copy the admin user's UUID from Supabase Authentication > Users. */
