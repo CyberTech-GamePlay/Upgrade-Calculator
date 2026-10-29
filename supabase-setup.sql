@@ -26,7 +26,7 @@ create policy "Configured admin can add upgrade prices"
   to authenticated
   with check (
     id = 1
-    and auth.uid() = 'YOUR_ADMIN_USER_UUID'::uuid
+    and auth.uid() = '281830a6-a457-494e-ba93-34d7465a2cac'::uuid
   );
 
 drop policy if exists "Configured admin can update upgrade prices" on public.upgrade_pricing;
@@ -36,11 +36,11 @@ create policy "Configured admin can update upgrade prices"
   to authenticated
   using (
     id = 1
-    and auth.uid() = 'YOUR_ADMIN_USER_UUID'::uuid
+    and auth.uid() = '281830a6-a457-494e-ba93-34d7465a2cac'::uuid
   )
   with check (
     id = 1
-    and auth.uid() = 'YOUR_ADMIN_USER_UUID'::uuid
+    and auth.uid() = '281830a6-a457-494e-ba93-34d7465a2cac'::uuid
   );
 
 insert into public.upgrade_pricing (id, costs, items, updated_at)
